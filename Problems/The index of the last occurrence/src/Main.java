@@ -5,6 +5,12 @@ public class Main {
 
     public static int searchIndexOfLastOccurrence(int[] numbers, int value) {
         // write your code here
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            if (numbers[i] == value) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     /* Do not change code below */

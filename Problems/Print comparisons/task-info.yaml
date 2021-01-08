@@ -12,5 +12,8 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/3825#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Fri, 08 Jan 2021 02:28:30 UTC
 record: -1

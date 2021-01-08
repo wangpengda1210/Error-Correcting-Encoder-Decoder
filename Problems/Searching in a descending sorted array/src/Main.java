@@ -4,23 +4,27 @@ import java.util.Scanner;
 public class Main {
 
     /* Modify this method */
-    public static int binarySearch(int elem, int[] array) {
+    public static int binarySearch(int value, int[] numbers) {
+        return binarySearch(numbers, value, 0, numbers.length);
+    }
 
-        int left = 0;
-        int right = array.length - 1;
-
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-
-            if (elem == array[mid]) {
-                return mid;
-            } else if (elem < array[mid]) {
-                right = mid - 1;
-            } else {
-                left = mid + 1;
-            }
+    private static int binarySearch(int[] numbers, int value, int left, int right) {
+        if (left > right) {
+            return -1;
         }
-        return -1;
+
+        int mid = (left + right) >>> 1;
+
+        if (numbers[mid] == value) {
+            while (mid >= 1 && numbers[mid - 1] == value) {
+                mid--;
+            }
+            return mid;
+        } else if (value > numbers[mid]) {
+            return binarySearch(numbers, value, left, mid - 1);
+        } else {
+            return binarySearch(numbers, value, mid + 1, right);
+        }
     }
 
     /* Do not change code below */

@@ -5,6 +5,12 @@ public class Main {
 
     public static int searchInSubArray(int[] numbers, int startIndex, int endIndex, int value) {
         // write your code here
+        for (int i = startIndex; i < endIndex; i++) {
+            if (numbers[i] == value) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     /* Do not change code below */

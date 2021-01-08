@@ -5,6 +5,20 @@ public class Main {
 
     public static int[] searchIndexes(int[] first, int[] second) {
         // write your code here
+        int[] indexes = new int[first.length];
+        for (int i = 0; i < first.length; i++) {
+            indexes[i] = search(second, first[i]);
+        }
+        return indexes;
+    }
+
+    private static int search(int[] numbers, int value) {
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] == value) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     /* Do not change code below */

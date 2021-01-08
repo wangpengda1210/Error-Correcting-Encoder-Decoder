@@ -5,6 +5,13 @@ public class Main {
 
     public static int count(int[] numbers, int value) {
         // write your code here
+        int count = 0;
+        for (int number : numbers) {
+            if (number == value) {
+                count++;
+            }
+        }
+        return count;
     }
 
     /* Do not change code below */

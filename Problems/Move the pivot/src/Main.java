@@ -4,6 +4,7 @@ public class Main {
 
     public static void moveThePivot(int[] array, int pivotIndex) {
         // write your code here
+        Arrays.sort(array);
     }
 
     /* Do not change code below */

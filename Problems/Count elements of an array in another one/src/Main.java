@@ -5,6 +5,22 @@ public class Main {
 
     public static int[] countOccurrences(int[] first, int[] second) {
         // write your code here
+        int[] occurrences = new int[first.length];
+        for (int i = 0; i < first.length; i++) {
+            occurrences[i] = count(second, first[i]);
+        }
+
+        return occurrences;
+    }
+
+    private static int count(int[] array, int value) {
+        int count = 0;
+        for (int number : array) {
+            if (number == value) {
+                count++;
+            }
+        }
+        return count;
     }
 
     /* Do not change code below */

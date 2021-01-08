@@ -5,6 +5,13 @@ public class Main {
 
     public static boolean contains(int[] numbers, int number) {
         // write your code here
+        for (int num : numbers) {
+            if (num == number) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     /* Do not change code below */

@@ -12,8 +12,27 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Error Correcting Encoder-Decoder/task" />
+            <option value="$PROJECT_DIR$/Problems/A fixed point" />
+            <option value="$PROJECT_DIR$/Problems/Count comparisons" />
+            <option value="$PROJECT_DIR$/Problems/Count elements of an array in another one" />
+            <option value="$PROJECT_DIR$/Problems/Does the array contain the element" />
             <option value="$PROJECT_DIR$/Problems/Extracting a substring" />
+            <option value="$PROJECT_DIR$/Problems/Find a block that may contain the target value" />
+            <option value="$PROJECT_DIR$/Problems/Finding a collection of elements in a sorted array" />
             <option value="$PROJECT_DIR$/Problems/Harry Potter" />
+            <option value="$PROJECT_DIR$/Problems/Heron's formula" />
+            <option value="$PROJECT_DIR$/Problems/Maximum element divisible by four" />
+            <option value="$PROJECT_DIR$/Problems/Move the pivot" />
+            <option value="$PROJECT_DIR$/Problems/Pow" />
+            <option value="$PROJECT_DIR$/Problems/Print comparisons" />
+            <option value="$PROJECT_DIR$/Problems/Quadratic equation" />
+            <option value="$PROJECT_DIR$/Problems/Search indexes of values in another array" />
+            <option value="$PROJECT_DIR$/Problems/Searching in a descending sorted array" />
+            <option value="$PROJECT_DIR$/Problems/The angle between vectors" />
+            <option value="$PROJECT_DIR$/Problems/The first occurrence in the subarray" />
+            <option value="$PROJECT_DIR$/Problems/The index of the K occurrence" />
+            <option value="$PROJECT_DIR$/Problems/The index of the last occurrence" />
+            <option value="$PROJECT_DIR$/Problems/The number of occurrences" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

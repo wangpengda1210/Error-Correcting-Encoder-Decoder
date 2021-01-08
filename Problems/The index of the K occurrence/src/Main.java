@@ -5,6 +5,17 @@ public class Main {
 
     public static int searchIndexOfKOccurrence(int[] numbers, int value, int k) {
         // write your code here
+        int count = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] == value) {
+                count++;
+
+                if (count == k) {
+                    return i;
+                }
+            }
+        }
+        return -1;
     }
 
     /* Do not change code below */
